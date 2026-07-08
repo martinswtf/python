@@ -1,0 +1,20 @@
+<!--Esse template herda no extends o layout.html
+ELe tem estruturas básicas de layout-->
+
+{% extends 'layout.html' %}
+
+
+{% block title %}
+
+Sobre o Flask
+
+{% endblock %}
+
+{% block content %}
+<h1>Sobre o Flask</h1>
+
+<p>Conteúdo de página sobre o Flask
+
+    Flask é um microframework para desenvolvimento web em Python. Ele é chamado de "micro" porque mantém o núcleo simples, mas extensível através de bibliotecas. Com o Flask conseguimos criar rotas, renderizar templates com Jinja2, receber dados de formulários e montar aplicações web de forma rápida, sem a complexidade de frameworks maiores como o Django. É uma ótima porta de entrada para quem está aprendendo desenvolvimento web com Python.
+</p>
+{% endblock %}
